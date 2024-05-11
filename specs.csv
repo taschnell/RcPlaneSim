@@ -1,0 +1,5 @@
+type,var_name,value,units
+mass,m,1,kg
+drag_coefficient,c,0.1,N/A
+frontal_area,A,0.1,m^2
+air_density,p,1.255,kg/(m^3)
