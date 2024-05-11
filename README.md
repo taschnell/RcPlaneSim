@@ -49,5 +49,5 @@ Thus the simulator accuracy has not been tested after that power draw.
 
 ## Other Notes
 
-- general.py to Caculate Relationship Curves
+- ModelAnalyzer.py to Caculate Relationship Curves
 - old_drag.py and old_thrust.py can also fufill this function
