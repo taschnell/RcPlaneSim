@@ -12,7 +12,7 @@ mass = 1.0
 Vo, x, time = 0, 0, 0
 step = 0.01
 a = sim.net_force(Vo, watts) / mass
-with open("Simulated.csv", "w", newline="") as csvfile:
+with open("simulated.csv", "w", newline="") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["Time(s)","Position(m)", "Velocity(m/s)", "Acceleration(m/s²)"])
     while x < distance:
