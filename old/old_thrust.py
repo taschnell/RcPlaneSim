@@ -8,7 +8,7 @@ A = 0.025
 p = 1.255
 
 Vo = 0 
-# Starts at zero, changes as plane accelerate
+# Starts at zero, changes as plane accelerates
 with open('Perdicted Ve, with respect to Watts.csv', 'r') as csvfile_Ve:
     csv_read = csv.reader(csvfile_Ve)
     next(csv_read)
