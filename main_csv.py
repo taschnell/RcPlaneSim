@@ -3,7 +3,7 @@ import csv
 
 x_list, y_list, v_list, a_list = [], [], [], []
 
-# User Inputs
+# User Input
 watts = float(input("Simulation Wattage (w):  "))
 distance = float(input("Simulation Distance (m): "))
 

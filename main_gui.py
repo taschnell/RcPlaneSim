@@ -51,6 +51,7 @@ class SimulationGUI:
         self.notebook.add(self.canvas_acc.get_tk_widget(), text="Acceleration")
 
     def plot_simulation(self):
+        # User Input
         watts = float(self.watt_entry.get())
         distance = float(self.distance_entry.get())
 

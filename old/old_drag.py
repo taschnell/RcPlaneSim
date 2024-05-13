@@ -3,7 +3,7 @@ import csv
 A = 0.10
 # Drag Coefficent estimate, to be tuned
 C = 0.10
-# air density in km/m^3
+# Air Density in km/m^3
 p = 1.255
 
 x = []
