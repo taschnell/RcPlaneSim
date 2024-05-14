@@ -14,9 +14,6 @@ def thrust(Vo=0.0, Watts=200.0) -> float:
     Returns Float in Newtons
     """
 
-    # Function, as BaseVe relates to Watts:
-    # 6.672168251812739*e^(x*0.17129478900624442)
-
     # Inverse Function USED
     a_base_Ve = 5.83805
     b_base_Ve = 0.14987
