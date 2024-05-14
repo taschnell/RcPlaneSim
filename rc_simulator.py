@@ -20,6 +20,8 @@ def thrust(Vo=0.0, Watts=200.0) -> float:
     # Inverse Function USED
     a_base_Ve = 5.83805
     b_base_Ve = 0.14987
+    # a_base_Ve = 9.26440
+    # b_base_Ve = 0.02361
     BaseVe = a_base_Ve * (np.log(b_base_Ve * Watts))
 
     # Air Density in kg/m^3
@@ -28,10 +30,8 @@ def thrust(Vo=0.0, Watts=200.0) -> float:
     # Prop Area in m^2
     A = 0.025
 
-    # Ve Caculation --> Ve = BaseVe + math.sqrt(Vo)
-    Ve = BaseVe + 1.09*math.sqrt(Vo)
-
-    # Ve = BaseVe - 9.3 + 2.4861*np.log(12.7388*(Vo+0.00001))
+    # Ve Caculation --> Ve = BaseVe + (Vo)^(2/3)
+    Ve = BaseVe + (Vo)**(2.0/3.0)
 
     # Thrust Caculation:
     Thrust = 0.5 * p * A * (Ve**2 - Vo**2)
