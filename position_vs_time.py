@@ -34,9 +34,6 @@ for value in y_values:
 
 # Calculate distances between each sim. data point:
 distances = find_displacement_from_velocity(x_values, y_converted_values)
-print(
-    f"Distances between each sim. data point:   {distances} | Total: {round(sum(distances),3)}"
-)
 
 # Example actual data points
 x_actual_values = [0, 0.3333, 1, 0.666, 1.333, 1.666, 2.0, 2.333]
@@ -51,9 +48,6 @@ for value in y_actual_values:
 
 actual_distances = find_displacement_from_velocity(
     x_actual_values, y__actual_converted_values
-)
-print(
-    f"Distances between each actual data point: {actual_distances} | Total: {round(sum(actual_distances),3)}"
 )
 
 distances.insert(0, 0)

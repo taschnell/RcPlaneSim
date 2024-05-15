@@ -1,4 +1,3 @@
-import math
 import numpy as np
 
 
@@ -17,8 +16,6 @@ def thrust(Vo=0.0, Watts=200.0) -> float:
     # Inverse Function USED
     a_base_Ve = 5.83805
     b_base_Ve = 0.14987
-    # a_base_Ve = 9.26440
-    # b_base_Ve = 0.02361
     BaseVe = a_base_Ve * (np.log(b_base_Ve * Watts))
 
     # Air Density in kg/m^3
