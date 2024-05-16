@@ -1,6 +1,6 @@
 **RC Plane Modeling Project**
 
-Johann Kaufmann, Teo Schnell, Chris Chavez
+Teo Schnell
 
 # Introduction and Procedure
 
