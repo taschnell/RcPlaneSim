@@ -10,7 +10,7 @@ distance = float(input("Simulation Distance (m): "))
 
 mass = 1.0
 Vo, x, time = 0, 0, 0
-step = 0.01
+step = 0.001
 a = sim.net_force(Vo, watts) / mass
 with open("Simulated.csv", "w", newline="") as csvfile:
     writer = csv.writer(csvfile)
